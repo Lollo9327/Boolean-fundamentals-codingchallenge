@@ -1,0 +1,99 @@
+body { 
+  width: 60%;
+  margin: auto;
+  background-image: url(immagini/background.jpg);
+  background-size: 100%;
+  font-family:"Poppins", sans-serif;
+}/* Nel body c'è l'immagine di sfondo, 
+  ho settato il ridimensionamento che più mi sembrava corretto,
+  infine ho messo un carattere preso dai google fonts simile a quello utilizzato */
+
+.finestra {
+  color: white; /* colore di tutte le scritte */
+  width: 100%;
+  height: 100%;
+  margin-top: 5%;
+  margin-bottom: 10%;
+  background-color: rgba(0, 0, 0, 0.5); /* colore e trasparenza della finestra utilizzando il valore RGBA */
+  padding: 100px;
+  border-radius: 2%;/* smussamento degli angoli */
+  margin-right: 100%;
+  margin-left: -10%;
+}/* Ho messo un div che prende tutto per creare la finestra semitrasparente
+  dove ho messo tutti i dati */
+
+h1 {
+  color: rgb(23, 223, 40);
+  max-width: 100%;
+  text-align: center;/* allineamento centrale */
+}/* valori per il titolo, visto che c'è solo un h1 
+  ho scelto di richiamrlo senza usare la classe*/
+
+.logo {
+  max-width: 25%; /* ridimensionamento immagine del logo Lim */
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: -5%;/* posizionamento del logo */
+}
+
+.container-bottoni {
+  background-color: rgb(23, 223, 40);
+  padding: 10px;
+  padding-right: 30%;
+  padding-left: 30%;
+  margin-top: -3%;
+}/* rettangolo verde contenente i button, ridimensionamento e valori */
+
+.bottone {
+  background-color: white;/* colore sfondo del button */
+  color: black;/* colore della scritta sul button */
+  border: 5px;
+  border-radius: 5%;
+  margin-left: auto;
+  cursor: pointer; /* piccola aggiunta per far capire che i button sono cliccabili */
+}/* classe data a tutti i button per definirne i dettagli */
+
+main {
+  margin-top: 20px;
+}/* ho richiamato direttamente il tag main per definire il margine in alto*/
+
+.Nome-Monopattino {
+  font-size: 110%;
+  font-weight: bold;
+}/* valori per il nome del monopattino */
+
+.dati{
+  font-size: 80%;
+}/* Ridimensionamento scritte sotto il nome monopattino */
+
+#orange-rettangolo {
+  width: 50%; /* Larghezza del rettangolo */
+  height: 15px; /* Altezza del rettangolo */
+  background-color: rgb(243, 161, 37); 
+  border-radius: 4px;/* smussatura angoli */
+  padding: 4px;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}/* mi sono permesso di inserire una percentuale 
+  dentro la barra dello stato di carica per renderlo più carino */
+
+#green-rettangolo {
+  width: 80%; /* Larghezza del rettangolo */
+  height: 15px; /* Altezza del rettangolo */
+  background-color: rgb(22, 211, 15); 
+  border-radius: 4px;/* smussatura angoli */
+  padding: 5px;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+#red-rettangolo {
+  width: 15%; /* Larghezza del rettangolo */
+  height: 15px; /* Altezza del rettangolo */
+  background-color:rgb(203, 5, 5); 
+  border-radius: 4px;/* smussatura angoli */
+  padding: 5px;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
