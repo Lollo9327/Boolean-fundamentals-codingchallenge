@@ -48,7 +48,7 @@ h1 {
 .bottone {
   background-color: white;/* colore sfondo del button */
   color: black;/* colore della scritta sul button */
-  border: 5px;
+  border: 1px solid black;
   border-radius: 5%;
   margin-left: auto;
   cursor: pointer; /* piccola aggiunta per far capire che i button sono cliccabili */
